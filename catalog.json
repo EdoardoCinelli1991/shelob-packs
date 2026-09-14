@@ -6,17 +6,17 @@
       "title": "Beast of Reincarnation",
       "colorPrimary": "#FFBE3A",
       "colorSecondary": "#0FB6AC",
-      "packUrl": "beast_of_reincarnation-1.0.0.shpack",
+      "packUrl": "beast_of_reincarnation-1.0.1.shpack",
       "coverUrl": "covers/beast_of_reincarnation.png",
-      "packSha256": "d28c558a19ed495d783e9a07fd7b32a10ec86ddbede5155a9e596fdb288660f8",
-      "packBytes": 12884030,
-      "packVersion": "1.0.0",
+      "packSha256": "5fe97c4804dc02b274c66ab78114d2a2a96df32870ad614c4885cfd5e612f155",
+      "packBytes": 12882729,
+      "packVersion": "1.0.1",
       "schemaVersion": 3,
       "minAppVersion": "1.2.0",
       "pageCount": 438,
       "locale": "en",
-      "publishedAt": "2026-09-09T09:38:20.572047Z",
-      "releaseNotes": "The complete offline wiki is ready. Editorial guide prose has been rewritten with game data, names, links, numbers and in-game text kept verbatim, then checked by deterministic guards and an independent review pass.",
+      "publishedAt": "2026-09-14T14:38:27.979077Z",
+      "releaseNotes": "Food Production ingredients now use a compact table with ingredient images, links and complete recipe lists.",
       "ordinal": 0
     }
   ]
