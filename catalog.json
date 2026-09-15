@@ -6,17 +6,17 @@
       "title": "Beast of Reincarnation",
       "colorPrimary": "#FFBE3A",
       "colorSecondary": "#0FB6AC",
-      "packUrl": "beast_of_reincarnation-1.0.1.shpack",
+      "packUrl": "beast_of_reincarnation-1.0.2.shpack",
       "coverUrl": "covers/beast_of_reincarnation.png",
-      "packSha256": "5fe97c4804dc02b274c66ab78114d2a2a96df32870ad614c4885cfd5e612f155",
-      "packBytes": 12882729,
-      "packVersion": "1.0.1",
+      "packSha256": "295fcc488931bfba8e58a7b4d705b2a0865dd5d23ba0b2d1c8a7e5996101c4d7",
+      "packBytes": 12882589,
+      "packVersion": "1.0.2",
       "schemaVersion": 3,
       "minAppVersion": "1.2.0",
       "pageCount": 438,
       "locale": "en",
-      "publishedAt": "2026-09-14T14:38:27.979077Z",
-      "releaseNotes": "Food Production ingredients now use a compact table with ingredient images, links and complete recipe lists.",
+      "publishedAt": "2026-09-14T15:54:13.550554Z",
+      "releaseNotes": "Recipe names in the Food Production ingredients table now link to their respective wiki pages.",
       "ordinal": 0
     }
   ]
