@@ -6,17 +6,17 @@
       "title": "Beast of Reincarnation",
       "colorPrimary": "#FFBE3A",
       "colorSecondary": "#0FB6AC",
-      "packUrl": "beast_of_reincarnation-1.0.2.shpack",
+      "packUrl": "beast_of_reincarnation-1.0.3.shpack",
       "coverUrl": "covers/beast_of_reincarnation.png",
-      "packSha256": "295fcc488931bfba8e58a7b4d705b2a0865dd5d23ba0b2d1c8a7e5996101c4d7",
-      "packBytes": 12882589,
-      "packVersion": "1.0.2",
+      "packSha256": "10cd6e818adf6bbbcc7ebe869fb3e76288040fbef70a8c5fb55975a84f2201f2",
+      "packBytes": 12884627,
+      "packVersion": "1.0.3",
       "schemaVersion": 3,
       "minAppVersion": "1.2.0",
       "pageCount": 438,
       "locale": "en",
-      "publishedAt": "2026-09-14T15:54:13.550554Z",
-      "releaseNotes": "Recipe names in the Food Production ingredients table now link to their respective wiki pages.",
+      "publishedAt": "2026-09-15T16:22:55.774479Z",
+      "releaseNotes": "Table entries and contextual descriptions now link to matching wiki pages, with zone maps used where no area page exists. Quantities and existing links are preserved.",
       "ordinal": 0
     }
   ]
