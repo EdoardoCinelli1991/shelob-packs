@@ -6,17 +6,17 @@
       "title": "Beast of Reincarnation",
       "colorPrimary": "#FFBE3A",
       "colorSecondary": "#0FB6AC",
-      "packUrl": "beast_of_reincarnation-1.0.3.shpack",
+      "packUrl": "beast_of_reincarnation-1.0.5.shpack",
       "coverUrl": "covers/beast_of_reincarnation.png",
-      "packSha256": "10cd6e818adf6bbbcc7ebe869fb3e76288040fbef70a8c5fb55975a84f2201f2",
-      "packBytes": 12884627,
-      "packVersion": "1.0.3",
+      "packSha256": "170b0e911617a61761132b958a11a7463650d8903abdd53a32924509da880c44",
+      "packBytes": 12884759,
+      "packVersion": "1.0.5",
       "schemaVersion": 3,
       "minAppVersion": "1.2.0",
       "pageCount": 438,
       "locale": "en",
-      "publishedAt": "2026-09-15T16:22:55.774479Z",
-      "releaseNotes": "Table entries and contextual descriptions now link to matching wiki pages, with zone maps used where no area page exists. Quantities and existing links are preserved.",
+      "publishedAt": "2026-09-20T16:35:21.883557Z",
+      "releaseNotes": "The crafting page now names its two tables, Materials and Manuals, and drops a section heading that only repeated the page title. The wiki overview separates its native title labels from its store offers. Existing content and links are preserved.",
       "ordinal": 0
     }
   ]
