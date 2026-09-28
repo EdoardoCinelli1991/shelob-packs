@@ -19,5 +19,166 @@
       "releaseNotes": "The crafting page now names its two tables, Materials and Manuals, and drops a section heading that only repeated the page title. The wiki overview separates its native title labels from its store offers. Existing content and links are preserved.",
       "ordinal": 0
     }
-  ]
+  ],
+  "models": {
+    "entries": [
+      {
+        "id": "smollm2-360m",
+        "displayName": "SmolLM2 360M",
+        "repository": "bartowski/SmolLM2-360M-Instruct-GGUF",
+        "revision": "7be6f65f1db715fe5dc5a4634c0d459b4eed42ec",
+        "file": "SmolLM2-360M-Instruct-Q4_K_M.gguf",
+        "license": "Apache-2.0",
+        "minAppVersion": "1.2.0",
+        "contextWindow": 4096,
+        "defaults": {
+          "temperature": 0.7,
+          "topP": 0.9
+        },
+        "thinkingMode": "none",
+        "tier": "light",
+        "minRamMb": 2048,
+        "url": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/7be6f65f1db715fe5dc5a4634c0d459b4eed42ec/SmolLM2-360M-Instruct-Q4_K_M.gguf",
+        "expectedBytes": 270590880,
+        "sha256": "2fa3f013dcdd7b99f9b237717fa0b12d75bbb89984cc1274be1471a465bac9c2",
+        "gated": false,
+        "ordinal": 0
+      },
+      {
+        "id": "qwen3-0_6b",
+        "displayName": "Qwen 3 0.6B",
+        "repository": "Qwen/Qwen3-0.6B-GGUF",
+        "revision": "23749fefcc72300e3a2ad315e1317431b06b590a",
+        "file": "Qwen3-0.6B-Q8_0.gguf",
+        "license": "Apache-2.0",
+        "minAppVersion": "1.2.0",
+        "contextWindow": 8192,
+        "defaults": {
+          "temperature": 0.7,
+          "topP": 0.8,
+          "topK": 20,
+          "minP": 0.0
+        },
+        "thinkingMode": "optional",
+        "thinkingDefaults": {
+          "temperature": 0.6,
+          "topP": 0.95,
+          "topK": 20,
+          "minP": 0.0,
+          "maxOutputTokens": 2048
+        },
+        "tier": "light",
+        "minRamMb": 3072,
+        "chatTemplateNote": "Reasoning is switched by the template's enable_thinking flag; past reasoning is not resent.",
+        "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/23749fefcc72300e3a2ad315e1317431b06b590a/Qwen3-0.6B-Q8_0.gguf",
+        "expectedBytes": 639446688,
+        "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+        "gated": false,
+        "ordinal": 1
+      },
+      {
+        "id": "gemma3-1b",
+        "displayName": "Gemma 3 1B",
+        "repository": "bartowski/google_gemma-3-1b-it-GGUF",
+        "revision": "116f76234503685a98f572982177b11d44ec8ff1",
+        "file": "google_gemma-3-1b-it-Q4_K_M.gguf",
+        "license": "Gemma Terms of Use",
+        "minAppVersion": "1.2.0",
+        "contextWindow": 4096,
+        "defaults": {
+          "temperature": 1.0,
+          "topP": 0.95,
+          "topK": 64,
+          "minP": 0.0
+        },
+        "thinkingMode": "none",
+        "tier": "balanced",
+        "minRamMb": 3072,
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/116f76234503685a98f572982177b11d44ec8ff1/google_gemma-3-1b-it-Q4_K_M.gguf",
+        "expectedBytes": 806058496,
+        "sha256": "12bf0fff8815d5f73a3c9b586bd8fee8e7b248c935de70dec367679873d0f29d",
+        "gated": false,
+        "ordinal": 2
+      },
+      {
+        "id": "qwen3-1_7b",
+        "displayName": "Qwen 3 1.7B",
+        "repository": "bartowski/Qwen_Qwen3-1.7B-GGUF",
+        "revision": "822702a8257cf1b05a27d73f775d8606cf2e33a4",
+        "file": "Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+        "license": "Apache-2.0",
+        "minAppVersion": "1.2.0",
+        "contextWindow": 8192,
+        "defaults": {
+          "temperature": 0.7,
+          "topP": 0.8,
+          "topK": 20,
+          "minP": 0.0
+        },
+        "thinkingMode": "optional",
+        "thinkingDefaults": {
+          "temperature": 0.6,
+          "topP": 0.95,
+          "topK": 20,
+          "minP": 0.0,
+          "maxOutputTokens": 2048
+        },
+        "tier": "balanced",
+        "minRamMb": 4096,
+        "chatTemplateNote": "Reasoning is switched by the template's enable_thinking flag; past reasoning is not resent.",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/822702a8257cf1b05a27d73f775d8606cf2e33a4/Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+        "expectedBytes": 1282439584,
+        "sha256": "72c5c3cb38fa32d5256e2fe30d03e7a64c6c79e668ad84057e3bd66e250b24fb",
+        "gated": false,
+        "ordinal": 3
+      },
+      {
+        "id": "phi4-mini",
+        "displayName": "Phi-4 Mini",
+        "repository": "bartowski/microsoft_Phi-4-mini-instruct-GGUF",
+        "revision": "7ff82c2aaa4dde30121698a973765f39be5288c0",
+        "file": "microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+        "license": "MIT",
+        "minAppVersion": "1.2.0",
+        "contextWindow": 4096,
+        "defaults": {
+          "temperature": 0.7,
+          "topP": 0.9
+        },
+        "thinkingMode": "none",
+        "tier": "quality",
+        "minRamMb": 6144,
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/7ff82c2aaa4dde30121698a973765f39be5288c0/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+        "expectedBytes": 2491874688,
+        "sha256": "01999f17c39cc3074afae5e9c539bc82d45f2dd7faa3917c66cbef76fce8c0c2",
+        "gated": false,
+        "ordinal": 4
+      },
+      {
+        "id": "gemma3-4b",
+        "displayName": "Gemma 3 4B",
+        "repository": "bartowski/google_gemma-3-4b-it-GGUF",
+        "revision": "71506238f970075ca85125cd749c28b1b0eee84e",
+        "file": "google_gemma-3-4b-it-Q4_K_M.gguf",
+        "license": "Gemma Terms of Use",
+        "minAppVersion": "1.2.0",
+        "contextWindow": 8192,
+        "defaults": {
+          "temperature": 1.0,
+          "topP": 0.95,
+          "topK": 64,
+          "minP": 0.0
+        },
+        "thinkingMode": "none",
+        "tier": "quality",
+        "minRamMb": 6144,
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/71506238f970075ca85125cd749c28b1b0eee84e/google_gemma-3-4b-it-Q4_K_M.gguf",
+        "expectedBytes": 2489758112,
+        "sha256": "4996030242583a40aa151ff93f49ed787ac8c25e4120c3ae4588b2e2a7d1ae94",
+        "gated": false,
+        "ordinal": 5
+      }
+    ],
+    "signature": "NjAiNDgYrYDdgJa1YO9ReqAw9ucq0N/QGi4Q/PwP+HuWtjiTBtmd0BripUslSOPo6KvmbYJEl+okhiACaXM7Bw=="
+  }
 }
