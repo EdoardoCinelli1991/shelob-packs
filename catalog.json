@@ -147,7 +147,7 @@
         },
         "thinkingMode": "none",
         "tier": "quality",
-        "minRamMb": 6144,
+        "minRamMb": 8192,
         "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/7ff82c2aaa4dde30121698a973765f39be5288c0/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
         "expectedBytes": 2491874688,
         "sha256": "01999f17c39cc3074afae5e9c539bc82d45f2dd7faa3917c66cbef76fce8c0c2",
@@ -171,7 +171,7 @@
         },
         "thinkingMode": "none",
         "tier": "quality",
-        "minRamMb": 6144,
+        "minRamMb": 8192,
         "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/71506238f970075ca85125cd749c28b1b0eee84e/google_gemma-3-4b-it-Q4_K_M.gguf",
         "expectedBytes": 2489758112,
         "sha256": "4996030242583a40aa151ff93f49ed787ac8c25e4120c3ae4588b2e2a7d1ae94",
@@ -179,7 +179,7 @@
         "ordinal": 5
       }
     ],
-    "signature": "NjAiNDgYrYDdgJa1YO9ReqAw9ucq0N/QGi4Q/PwP+HuWtjiTBtmd0BripUslSOPo6KvmbYJEl+okhiACaXM7Bw=="
+    "signature": "0CUzaRHlGRiLMdpdsLoSN+goUQT16Kq3mqR/D3lPkncxQmVFLUK9FIhlEghF9UkVxd2fYw9hrddtCPuI3ylmCw=="
   },
   "runtimes": {
     "entries": [
