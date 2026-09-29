@@ -180,5 +180,41 @@
       }
     ],
     "signature": "NjAiNDgYrYDdgJa1YO9ReqAw9ucq0N/QGi4Q/PwP+HuWtjiTBtmd0BripUslSOPo6KvmbYJEl+okhiACaXM7Bw=="
+  },
+  "runtimes": {
+    "entries": [
+      {
+        "id": "cuda",
+        "platform": "windows-x64",
+        "nativeTag": "v0.4.1",
+        "url": "https://github.com/leehack/llamadart-native/releases/download/v0.4.1/llamadart-native-windows-x64-v0.4.1.tar.gz",
+        "license": "NVIDIA CUDA runtime under NVIDIA's licence, published by llamadart-native (MIT)",
+        "files": [
+          {
+            "name": "ggml-cuda.dll",
+            "sha256": "ad91c3a59b3f412274ff6cc070f27998611936fe25ddece219ad189d58f8c26e",
+            "bytes": 164204032
+          },
+          {
+            "name": "cudart64_12.dll",
+            "sha256": "c2c9a9c22a9bcba90e261825968836787b331038047a26770cffb7a583c28344",
+            "bytes": 573952
+          },
+          {
+            "name": "cublas64_12.dll",
+            "sha256": "9513540e4ec4c51ee9e7304138c2cc255c29a8c181f9e80c38efa25738becd99",
+            "bytes": 113716224
+          },
+          {
+            "name": "cublaslt64_12.dll",
+            "sha256": "b199d1ff892a81b7fd3d57ba1781549609b41500b36008fef326038393ad46c7",
+            "bytes": 674667520
+          }
+        ],
+        "expectedBytes": 733848420,
+        "sha256": "6cc6ecb3b8b6a9150b7ea23b98a10b69a8544cddd46714577bf582c640c2f242"
+      }
+    ],
+    "signature": "xkjmEr7G2gIOFzE3H/+U4raaHI4Ed088AUbygAn81iqKiPk8vgLe6c70Qrxsi0BKiY+qHJi2yjA4akS/wv6GDQ=="
   }
 }
