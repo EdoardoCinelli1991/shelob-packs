@@ -6,17 +6,17 @@
       "title": "Beast of Reincarnation",
       "colorPrimary": "#FFBE3A",
       "colorSecondary": "#0FB6AC",
-      "packUrl": "beast_of_reincarnation-1.0.5.shpack",
+      "packUrl": "beast_of_reincarnation-1.0.6.shpack",
       "coverUrl": "covers/beast_of_reincarnation.png",
-      "packSha256": "170b0e911617a61761132b958a11a7463650d8903abdd53a32924509da880c44",
-      "packBytes": 12884759,
-      "packVersion": "1.0.5",
+      "packSha256": "fe80527c9bef3599d9ca50288b4f990e324ebfeaba45149936aec6418a4123fb",
+      "packBytes": 14595518,
+      "packVersion": "1.0.6",
       "schemaVersion": 3,
       "minAppVersion": "1.2.0",
       "pageCount": 438,
       "locale": "en",
-      "publishedAt": "2026-09-20T16:35:21.883557Z",
-      "releaseNotes": "The crafting page now names its two tables, Materials and Manuals, and drops a section heading that only repeated the page title. The wiki overview separates its native title labels from its store offers. Existing content and links are preserved.",
+      "publishedAt": "2026-11-07T10:35:14.858146Z",
+      "releaseNotes": "Adds the search data that lets the chat answer from this wiki and cite its pages. The pages themselves are unchanged.",
       "ordinal": 0
     }
   ],
@@ -216,5 +216,32 @@
       }
     ],
     "signature": "xkjmEr7G2gIOFzE3H/+U4raaHI4Ed088AUbygAn81iqKiPk8vgLe6c70Qrxsi0BKiY+qHJi2yjA4akS/wv6GDQ=="
+  },
+  "embeddingModels": {
+    "entries": [
+      {
+        "id": "jina-v5-small-retrieval-q8",
+        "displayName": "Jina Embeddings v5 Small (retrieval)",
+        "repository": "jinaai/jina-embeddings-v5-text-small-retrieval-GGUF",
+        "revision": "78b0ebcb4c870fdfef409e578b65288b49a4fa90",
+        "file": "v5-small-retrieval-Q8_0.gguf",
+        "license": "CC-BY-NC-4.0",
+        "attribution": "Jina Embeddings v5 by Jina AI, licensed CC BY-NC 4.0",
+        "minAppVersion": "1.2.0",
+        "nativeDimensions": 1024,
+        "outputDimensions": 256,
+        "pooling": "lastToken",
+        "queryPrefix": "Query: ",
+        "documentPrefix": "Document: ",
+        "contextSize": 2048,
+        "minRamMb": 1024,
+        "url": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small-retrieval-GGUF/resolve/78b0ebcb4c870fdfef409e578b65288b49a4fa90/v5-small-retrieval-Q8_0.gguf",
+        "expectedBytes": 639447424,
+        "sha256": "b759677362414e664160ffb017fbc74c300feaa4ad4085f69f2cc1bfa12ccb71",
+        "gated": false,
+        "ordinal": 0
+      }
+    ],
+    "signature": "z0AWqP++l6KAdj9IbuQHG1BULI3PJrr8q3qAVu+Hdj7smEOE+ezFVLNrY5COMbbVkwUwMW+CFbuOuC8mDtgBCg=="
   }
 }
